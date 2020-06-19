@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends React.Component {
@@ -22,17 +21,15 @@ class App extends React.Component {
     })
   }
   render() {
-    return (
-      
-        
-        
+    return ( 
+
   <div className="App">
   <header className="App-header">
     <div className='add'>
-        <img src='https://image.flaticon.com/icons/png/512/16/16909.png' width='100px' height='100px'onClick={this.plus}/>
+    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Feather-core-minus-circle.svg/1024px-Feather-core-minus-circle.svg.png' width='70px' height='70px'onClick={this.minus}/>
             <div className='count'> {this.state.count} </div>
-            
-          <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Feather-core-minus-circle.svg/1024px-Feather-core-minus-circle.svg.png' width='100px' height='100px'onClick={this.minus}/>
+            <img src='https://image.flaticon.com/icons/png/512/16/16909.png' width='70px' height='70px'onClick={this.plus}/>
+         
         </div> 
         <h1>React App 1</h1>
    </header>
